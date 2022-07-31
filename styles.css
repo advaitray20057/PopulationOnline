@@ -1,0 +1,35 @@
+/* Add a gray background color to the top navigation */
+.topnav {
+    background-color: #696969;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  @font-face{
+    font-family: 'MyWebFont' ;
+    src: url('WebFont.eot');
+    src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+    url('WebFont.woff') format('woff')
+    url('WebFont.ttf') format('truetype')
+    url('WebFont.svg#webfont') format('svg')
+  }
